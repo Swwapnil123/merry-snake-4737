@@ -67,8 +67,8 @@ function LoginModal() {
           <ModalCloseButton />
           {isAuth ? (
             <ModalBody>
-              <Text color="white">Enter OTP</Text>
-              <Text w="80%" fontSize="xs" margin="auto" mt={14} color="grey">
+              <Text color="black">Enter OTP</Text>
+              <Text w="80%" fontSize="xs" margin="auto" mt={14} color="gray">
                 Please enter the code we just sent to {contact} to proceed
               </Text>
               <HStack mt={10} mb={10} justifyContent={'center'}>
@@ -86,7 +86,7 @@ function LoginModal() {
                 w="full"
                 height={7}
                 bg="grey"
-                color="black"
+                color="white"
                 fontSize="14px"
                 letterSpacing={2}
                 onClick={() => {

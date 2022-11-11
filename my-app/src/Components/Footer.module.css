@@ -16,7 +16,7 @@ footer a {
 }
 
 footer .top_section {
-  width: 90%;
+  width: 85%;
   display: grid;
   grid-template-columns: 2.3fr 1fr 1.3fr 1.2fr;
   gap: 40px;
@@ -28,46 +28,51 @@ footer .top_section {
 }
 
 footer .top_section .logo_section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  text-align: left;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+   text-align: left; 
   gap: 50px;
-  font-size: 15px;
+  font-size: 17px;
   color: #CACACA;
 }
 footer .top_section .logo_section img {
-  height: 40px;
+  height: 60px;
 }
 
 footer .top_section .about_links a,
 footer .top_section .business_links a {
   color: #CACACA;
-   /* text-transform: uppercase;  */
-  gap:50px;
-  font-weight: 300;
+   /* text-transform: uppercase;   */
+   margin-left: 15px;
+   text-align: right;
+  gap:100px;
+  font-weight: 500;
 }
 
-
-/* 
 footer .top_section .about_links ul,
 footer .top_section .business_links ul {
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  line-height: 1.94;
+   line-height: 3; 
+   text-align: left;
   list-style: none;
 }
 
 footer .top_section .download_app {
   display: flex;
+  margin-top: 20px;
   flex-direction: column;
-  gap: 20px;
+  gap: 60px;
+  margin-left: 50px;
+  
 }
 
 footer .top_section .download_app img {
-  height: 42px;
+  height: 80px;
+  margin-left: 130px;
 }
 
 footer .top_section > div {
@@ -82,7 +87,7 @@ footer .top_section > div:first-child {
 
 .download_app {
   margin: auto;
-} */
+} 
 
 
 
@@ -138,11 +143,13 @@ footer .bottom .links a {
 
 footer .social_icons {
   display: flex;
-  gap: 20px;
+  gap: 30px;
+  margin-left: 950px;
 }
 footer .social_icons img {
-  height: 12px;
+  height: 25px;
   filter: invert(0.5);
+  margin-bottom: 80px;
 }
 
 footer .social_icons a:hover {
